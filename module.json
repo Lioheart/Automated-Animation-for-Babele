@@ -1,0 +1,24 @@
+{
+  "id": "automated-animation-for-babele",
+  "title": "Automated Animation for Babele",
+  "version": "vDev",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "scripts": [
+    "scripts/aa_babele.js"
+  ],
+  "description": "<p>This tiny script allows you to use the Automated Animation module with Babele translations.</p>",
+  "authors": [
+    {
+      "name": "Lioheart",
+      "discord": "lioheart77",
+      "email": "caco7.lioheart@gmail.com",
+      "flags": {}
+    }
+  ],
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}
