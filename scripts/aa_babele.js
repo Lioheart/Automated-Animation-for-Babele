@@ -1,5 +1,11 @@
 Hooks.on("aa.getRequiredData", (data) => {    
-    const originalName = getProperty(data.item, "flags.babele.originalName");
+    console.log("aa.getRequiredData hook fired", data);
+    let originalName = getProperty(data.item, "flags.babele.originalName");
+
+    if (!originalName) {
+        originalName = getProperty(data.item, "system.identifier");
+    }
+
     if (!originalName) return;
 
     data.overrideNames.push(originalName);
