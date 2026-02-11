@@ -4,6 +4,7 @@ Hooks.on("aa.getRequiredData", (data) => {
 
     if (!originalName) {
         originalName = getProperty(data.item, "system.identifier");
+        originalName = originalName.replaceAll("-", " ");
     }
 
     if (!originalName) return;
